@@ -1,5 +1,4 @@
 import { motion } from "motion/react";
-import { EmailForm } from "./EmailForm";
 
 export function ComingSoonPage() {
   return (
@@ -69,29 +68,20 @@ export function ComingSoonPage() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
           >
-            <h2 className="text-2xl md:text-4xl text-slate-300 mb-6">
+            <h2 className="text-2xl md:text-4xl mb-6 bg-gradient-to-r from-emerald-500 to-blue-500 bg-clip-text text-transparent">
               Coming Soon
             </h2>
-            <p className="text-lg md:text-xl text-slate-400 mb-12 max-w-2xl mx-auto">
+            <p className="text-lg md:text-xl text-slate-400 max-w-2xl mx-auto">
               The next generation of financial intelligence for private equity firms. 
               Built for the future.
             </p>
-          </motion.div>
-
-          {/* Email Form */}
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.6 }}
-          >
-            <EmailForm />
           </motion.div>
 
           {/* Footer note */}
           <motion.p
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            transition={{ duration: 0.8, delay: 0.8 }}
+            transition={{ duration: 0.8, delay: 0.6 }}
             className="text-slate-500 text-sm mt-16"
           >
             Something revolutionary is on the horizon
