@@ -72,7 +72,7 @@ export function ComingSoonPage() {
               Coming Soon
             </h2>
             <p className="text-lg md:text-xl text-slate-400 max-w-2xl mx-auto">
-              The next generation of financial intelligence for private equity firms. 
+              The next generation of financial intelligence for investment professionals. 
               Built for the future.
             </p>
           </motion.div>
