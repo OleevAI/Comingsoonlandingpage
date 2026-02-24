@@ -1,0 +1,15 @@
+name: Notify oleev-app
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: peter-evans/repository-dispatch@v3
+        with:
+          token: ${{ secrets.OLEEV_APP_DISPATCH_TOKEN }}
+          repository: OleevAI/oleev-app
+          event-type: landing-page-updated
