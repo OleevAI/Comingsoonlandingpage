@@ -71,7 +71,7 @@ export function ComingSoonPage() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.8, delay: 0.3 }}
-            className="text-white text-base lg:text-lg max-w-xs"
+            className="text-white text-base lg:text-lg max-w-xs text-center"
           >
             Something revolutionary is on the horizon
           </motion.p>
@@ -79,7 +79,7 @@ export function ComingSoonPage() {
 
         {/* Copyright footer */}
         <p className="absolute bottom-8 left-8 text-sm text-white/40">
-          © Copyrights Greelogix | All Rights Reserved
+          © Copyrights Oleev | All Rights Reserved
         </p>
       </div>
 
@@ -181,7 +181,7 @@ export function ComingSoonPage() {
 
         {/* Mobile copyright */}
         <p className="text-sm text-black/40 text-center pb-4 px-4">
-          © Copyrights Greelogix | All Rights Reserved
+          © Copyrights Oleev | All Rights Reserved
         </p>
       </div>
     </div>
